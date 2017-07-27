@@ -1,0 +1,113 @@
+
+ <html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <title> 玩</title> 
+    </head> 
+    <body> 
+        <div style="width: 50%;height: 200%;margin: 50px auto;">
+            <svg width="100%" height="200%" xmlns="http://www.w3.org/2000/svg" version="1.1"> 
+                <!-- 头饰 -->
+                <rect x="49" y="135" width="189" height="52" style="fill:rgba(39,44,231,0.5);stroke:rgb(0,0,128);stroke-width:1"/>
+                <!-- 脸 -->
+                <circle cx="143" cy="163" r="66" style="fill:rgba(202,255,255,0.8);stroke-width:0.5"/>
+                <!-- 眼白 -->
+                <circle cx="110" cy="163" r="20" style="fill:rgba(255,255,255,1);stroke-width:0.5"/>
+                <circle cx="175" cy="163" r="20" style="fill:rgba(255,255,255,1);stroke-width:0.5"/>
+                <!-- 眼珠 -->
+                <circle cx="115" cy="168" r="10" style="fill:rgba(0,0,0,1);stroke-width:0.5">
+                    <animateTransform 
+                        attributeName="transform" 
+                        begin="0s" dur="5s" 
+                        type="rotate" 
+                        from="0 110 163" 
+                        to="360 110 163" 
+                        repeatCount="indefinite"/>
+                </circle>
+                <circle cx="180" cy="168" r="10" style="fill:rgba(0,0,0,1);stroke-width:0.5">
+                    <animateTransform 
+                        attributeName="transform" 
+                        begin="0s" dur="5s" 
+                        type="rotate" 
+                        from="0 175 163" 
+                        to="360 175 163" 
+                        repeatCount="indefinite"/>
+                </circle>
+                <!-- 嘴 -->
+                <path d="M125,200
+                    C125 200 145 240 165 200"
+                    style="fill:red;stroke:red;stroke-width:2"/>
+                <!-- 脖子 -->
+                <ellipse cx="143" cy="245" rx="10" ry="15" style="fill:rgba(255,192,255,0.9);stroke:rgba(0,0,128,0.6);stroke-width:1"/>
+                <!-- 头发 -->
+                <polyline points="150,100 150,0 10,200 100,120" style="stroke:rgba(64,64,64,0.9);stroke-width:1"/>
+                <!-- 肩膀 -->
+                <path d="M60 330
+                    C60 330 30 270 140 261
+                    C140 261 250 270 220 330"
+                    style="fill:rgb(100,120,220);stroke:rgb(100,120,120);stroke-width:2"/>
+                <!-- 腿 -->
+                <path d="M90 750
+                    C90 750 100 1050 100 1050
+                    C100 1050 120 1050 120 1050
+                    120 1050 130 750 130 750"
+                    style="fill:rgb(159,140,200);stroke:rgb(159,140,200);stroke-width:2"/>
+                <path d="M150 750
+                    C150 750 150 1050 150 1050
+                    C150 1050 170 1050 170 1050
+                    170 1050 190 750 190 750"
+                    style="fill:rgb(159,140,200);stroke:rgb(159,140,200);stroke-width:2"/>
+                <!-- 裙子 -->
+                <linearGradient id="orange_red" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:rgb(255,255,100);"/>
+                    <stop offset="100%" style="stop-color:rgb(255,0,100);"/>
+                </linearGradient>
+                <ellipse cx="145" cy="630" rx="145" ry="135"
+                    style="fill:url(#orange_red)"/>
+                <!-- 小手 -->
+                <ellipse cx="110" cy="610" rx="10" ry="25" style="fill:rgb(200,24,20)"/>
+                <ellipse cx="162" cy="610" rx="10" ry="25" style="fill:rgb(200,24,20)"/>
+                <!-- 胳膊 -->
+                <path d="M70 350
+                    C70 350 100 600 100 600
+                    C100 600 120 590 120 590
+                    120 590 95 350 95 350"
+                    style="fill:rgb(159,120,120);stroke:rgb(159,120,120);stroke-width:2"/>
+                <path d="M185 350
+                    C185 350 155 590 155 590
+                    C155 590 175 600 175 600
+                    175 600 210 350 210 350"
+                    style="fill:rgb(159,120,120);stroke:rgb(159,120,120);stroke-width:2"/>
+                <!-- 破领 -->
+                <path d="M60 330
+                    C60 330 30 340 50 370
+                    C50 370 60 345 70 375
+                    C70 375 80 344 90 360
+                    C90 360 100 330 110 370
+                    C110 370 120 340 130 365
+                    C130 365 140 344 150 377
+                    C150 377 160 350 170 360
+                    C170 360 180 343 190 368
+                    C190 368 200 350 210 370
+                    C210 370 220 335 230 372
+                    C230 372 245 340 220 330" />
+                <!-- 鞋子 -->
+                <path d="M100 1050
+                    C100 1050 100 1100 90 1100
+                    C90 1100 70 1170 50 1120
+                    C50 1120 30 1150 55 1080
+                    C55 1080 20 1150 50 1160
+                    C50 1160 120 1160 120 1160
+                    C120 1160 120 1050 120 1050
+                    C120 1050 100 1050 100 1050"/>
+                <path d="M150 1050
+                    C150 1050 150 1100 140 1100
+                    C140 1100 120 1170 100 1120
+                    C100 1120 80 1150 105 1080
+                    C105 1080 70 1150 110 1160
+                    C110 1160 170 1160 170 1160
+                    C170 1160 170 1050 170 1050
+                    C170 1050 150 1050 150 1050"/>
+            </svg> 
+        </div>
+    </body> 
+ </html>
